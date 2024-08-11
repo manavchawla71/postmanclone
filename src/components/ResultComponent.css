@@ -1,0 +1,9 @@
+.response-data {
+  margin-left: 8pc;
+  margin-top: 20px;
+  white-space: pre-wrap; /* Ensure the JSON response is displayed properly */
+  font-family: monospace;
+}
+.copy-icon {
+  cursor: pointer;
+}

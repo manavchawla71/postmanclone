@@ -1,0 +1,58 @@
+.selected {
+  font-weight: bold;
+}
+/* App.css */
+
+.loading-animation {
+  margin-top: 20px;
+  font-size: 18px;
+  color: #007bff;
+  animation: loadingText 1.5s;
+}
+
+@keyframes loadingText {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.response-data {
+  margin-top: 20px;
+  white-space: pre-wrap; /* Ensure the JSON response is displayed properly */
+  font-family: monospace;
+}
+
+.urltext {
+  color: white;
+}
+.divcontainer {
+  text-align: center;
+  margin-top: 3pc;
+}
+.inputcontainer {
+  width: 70%;
+}
+.buttoncontainer {
+  background-color: purple;
+  color: white;
+  padding: 10px;
+  margin-left: 2pc;
+}
+.selectcontainer {
+  background-color: white;
+  color: black;
+  width: 10%;
+}
+.selectcontainer option {
+  background-color: white; /* Background color of options */
+  color: black; /* Text color of options */
+}
+* {
+  background-color: aqua;
+}
